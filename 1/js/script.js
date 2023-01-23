@@ -51,7 +51,7 @@ firstPageLoading();
 
 
 link1.addEventListener("click", async function(){
-    let response = await fetch("../1/gt.html")
+    let response = await fetch("https://alopez-2018459.github.io/1/1/gt.html")
     let data = await response.text();
     navStick.classList.remove("bio-tab-active")
 
@@ -75,8 +75,8 @@ link1.addEventListener("click", async function(){
 link2.addEventListener("click", async function(){
     addTransition("main", 1, "addTransition")
 
-    let response = await fetch("../3/Biografia.html");
-    let bannerResponse = await fetch("../Banners/bannerBio.html");
+    let response = await fetch("https://alopez-2018459.github.io/1/3/Biografia.html");
+    let bannerResponse = await fetch("https://alopez-2018459.github.io/1/Banners/bannerBio");
 
     let data = await response.text();
     let dataBanner = await bannerResponse.text();
