@@ -34,8 +34,8 @@ function addTransition(elementId, duration, effect) {
 
 
 let firstPageLoading = async function(){
-    let response = await fetch("../1/gt.html")
-    let bannerResponse = await fetch("../Banners/bannerGT.html");
+    let response = await fetch("https://alopez-2018459.github.io/1/1/gt.html")
+    let bannerResponse = await fetch("https://alopez-2018459.github.io/1/Banners/bannerGT.html");
 
     let data = await response.text();
     let dataBanner = await bannerResponse.text();
