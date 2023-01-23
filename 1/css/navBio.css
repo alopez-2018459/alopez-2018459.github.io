@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100rem;
+    background-color: rgb(255, 255, 255);
+    font-size-adjust: none;
+}
+
+
+
+
+.containerHead{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/bg_banner.png);
+    background-position-y: -33vh;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 25vh;
+    transition: all 0.6s ease;
+}
+
+
+
+.scroll-active-bg{
+    background-position-y: bottom;
+    transition: 0.6s;
+}
+
+.blur-bg-banner{
+    transition: 0.3s;
+    filter: blur(20px);
+}
+
+
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    padding: 5vh;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.headerimg {
+    display: flex;
+    width: 20vh;
+    height: 100%;
+}
+
+.headerimg img{
+    display: block;
+    margin: 0;
+    border-radius: 150px;
+    border: 4px solid rgba(0, 0, 0, 0.399);
+    width: 100%;
+    height: auto;
+    
+}
+
+.text-right-nav{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 650px;
+    font-size: 300px;
+    color: rgba(184, 205, 255, 0);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    padding-top: 3vh;
+    transition: all 1s ease;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 2.5vh;
+    text-align: center;
+    margin-left: 2vh;
+}
+
+.titleSpan{
+    letter-spacing: 0.5vh;
+    color: rgb(0, 68, 255);
+    transition: 0.6s;
+}
+
+.black-title{
+    letter-spacing: 0vh;
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+}

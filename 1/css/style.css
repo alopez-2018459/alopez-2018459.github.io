@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100rem;
+    background-color: rgb(34, 33, 33);
+    
+}
+
+.content{
+    opacity: 0;
+ }
+
+.containerHead{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    overflow: hidden;
+    height: 25vh;
+}
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    padding: 5vh;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+
+.headerimg {
+    height: 100px;
+    width: 250px;
+}
+
+.headerimg img{
+    width: 100%;
+    height: auto;
+}
+
+.text-right-nav{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 650px;
+    font-size: 300px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    padding-top: 3vh;
+    transition: all 1s ease;
+    animation: jump 7s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.text-right-nav:hover{
+    transition: all 1s ease;
+    transform: translateX(-10px);
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
+
+
+.title{
+    padding: 2.5vh;
+    text-align: center;
+}
+
+.titleSpan{
+    color: red;
+}
+
+.navbar{
+    font-family: 'Open Sans', sans-serif;   
+    position: sticky;
+    font-size: 20px;
+}
+
+.nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+    font-size: 14x;
+    height: 10vh;
+    width: 100%;
+    z-index: 2;
+}
+
+.sticky-bio{   
+    background-color: black;
+    position: sticky;
+    height: 5vh;
+}
+
+.nav.sticky{
+    background-color: #fff;
+    position: sticky;
+    height: 5vh;
+}
+
+.nav.sticky ul li a{
+    color: black;
+    font-size: 20px;
+}
+
+.nav.sticky ul li a{
+    color: black;
+    font-size: 20px;
+}
+
+.nav.sticky .nav-kinal-tab{
+    width: 10vh;
+    margin-left: 3vh;
+}
+
+.nav.sticky .nav-gt-tab{
+    width: 10vh;
+    background-color: black;
+}
+
+
+
+.nav ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.nav ul li{
+    position: relative;
+    list-style: none;
+}
+
+.nav ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.5s;
+
+}
+
+
+.nav-gt-tab{
+    cursor: pointer;
+    font-size: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 100%;
+    
+}
+
+.nav.bio-tab-active ul li a{
+    color: black;
+}
+
+
+
+
+.nav ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-gt-tab:hover{
+    transition: 0.4s;
+    background-color: rgba(255, 0, 0, 0.744);
+    color: rgb(0, 0, 0);
+}
+
+
+.nav-bio-tab:hover{
+    transition: 0.4s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+.nav-gt-tab img{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    text-size-adjust: 100%;
+}
+
+
+.nav-kinal-tab{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.nav-kinal-tab img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nav-kinal-tab:hover img{
+    transform: translateY(-10px);
+    transition: all 1 ease-in;
+}
+
+
+
+ .nav-bio-tab{
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 100%;
+}
+
+.txt-bio-tab{
+    margin-left: 30px;
+}
+
+.nav-black-blur{
+    background-color: rgba(0,0,0,0.8) !important;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

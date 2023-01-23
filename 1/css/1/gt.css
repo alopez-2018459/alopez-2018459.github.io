@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+.gtMain{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    padding-top: 0.5vh;
+    background-color: rgb(69, 69, 69);
+}
+
+.background1Block{
+    width: 100%;
+    height: 30vh;
+}
+
+
+.lineBlock1{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.783);
+}
+
+.textBlock{
+    width: 40vh;
+    height: 100%;
+}
+
+.TitleBlock{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+
+.title-block-span{
+    color: red;
+}
+
+.text-p-block{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    padding-left: 5vh;
+    color: white;   
+}
+
+.leftTxtBlock{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    position: relative;
+    width: 80vh;
+    height: 100%;
+}
+
+
+.img-right-backgrond img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+}
+
+.img-right-backgrond::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgb(255, 1, 1) -3%, rgba(0, 0, 0, 0.985) 100%);
+}
+
+
+.overlayText{
+    padding-left: 35%;
+    padding-top: 15%;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.stroke{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    text-decoration: underline;
+    box-shadow: 0 -2px 1px #000 inset;
+}
+
+.background-2-block{
+    height: 60vh;
+    background-color: white;
+    width: 100%;
+
+}
+
+.background-3-block{
+    height: 30vh;
+    background-image: url(/img/ferrari1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
